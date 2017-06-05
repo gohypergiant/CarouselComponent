@@ -1,0 +1,33 @@
+{
+  "name": "@blackpixel/framer-carouselcomponent",
+  "version": "0.0.0",
+  "description": "Generate a scrolling carousel of items in a variety of configurations.",
+  "homepage": "https://github.com/bpxl-labs/CarouselComponent",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bpxl-labs/CarouselComponent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bpxl-labs/CarouselComponent/issues"
+  },
+  "main": "CarouselComponent.coffee",
+  "author": "Black Pixel",
+  "license": "MIT",
+  "keywords": [
+    "framerjs",
+    "framer",
+    "coffeescript",
+    "carousel"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "coffeeify": "^2.1.0"
+  },
+  "browserify": {
+    "transform": [
+      "coffeeify"
+    ]
+  }
+}
