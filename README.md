@@ -6,7 +6,7 @@
 
 The CarouselComponent module allows you to generate a scrolling carousel of items in a variety of configurations.
 	
-<img src="https://cloud.githubusercontent.com/assets/935/26805266/c95bf1a0-4a10-11e7-9024-c05779531f51.gif" width="501" style="display: block; margin: auto" alt="CarouselComponent preview" />	
+<img src="https://cloud.githubusercontent.com/assets/935/26805354/28e65a5c-4a11-11e7-854a-3cf275d5ef58.gif" width="501" style="display: block; margin: auto" alt="CarouselComponent preview" />	
 
 ### Installation
 
