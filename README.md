@@ -115,7 +115,7 @@ Specify `sideCaptions: true` to vertically align captions alongside cells rather
 <img src="https://user-images.githubusercontent.com/935/26845002-db4c73bc-4aba-11e7-822c-a16a15f79d73.png" width="401" style="display: block; margin: auto" alt="Top-aligned side captions" />	
 
 #### Using the wrap feature
-If you specify `wrap: true`, the first item in the carousel will display on its own row as a `hero` item. This item can be controlled independently of the rest of the carousel. Secondary cells will be sized according to `smallItemWidth` and `smallItemHeight` rather than `itemWidth` and `itemHeight`.
+If you specify `wrap: true`, the first item in the carousel will display on its own row as a hero item. This item can be controlled independently of the rest of the carousel. Secondary cells will be sized according to `smallItemWidth` and `smallItemHeight` rather than `itemWidth` and `itemHeight`.
 
 <img src="https://user-images.githubusercontent.com/935/26845003-db4eb334-4aba-11e7-8e7b-779b8e9d35ef.png" width="340" style="display: block; margin: auto" alt="Using wrap" />	
 
