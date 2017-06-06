@@ -78,9 +78,11 @@ myCarousel = new CarouselComponent
 	captionFontSize: <number>
 	captionFontWeight: <number>
 	captionMargin: <number>
+	captionMaxHeight: <number>
 	subcaptionFontSize: <number>
 	subcaptionFontWeight: <number>
 	subcaptionMargin: <number>
+	subcaptionMaxHeight: <number>
 	titleAlign: <string> ("left" | "center" | "right")
 	captionAlign: <string> ("left" | "center" | "right")
 
@@ -110,11 +112,21 @@ myCarousel = new CarouselComponent
 #### Using side captions
 Specify `sideCaptions: true` to vertically align captions alongside cells rather than underneath. Specify `topAlignSideCaptions: true` to align side captions to the tops of their adjacent cells.
 
+<img src="https://user-images.githubusercontent.com/935/26845002-db4c73bc-4aba-11e7-822c-a16a15f79d73.png" width="401" style="display: block; margin: auto" alt="Top-aligned side captions" />	
+
 #### Using the wrap feature
 If you specify `wrap: true`, the first item in the carousel will display on its own row as a `hero` item. This item can be controlled independently of the rest of the carousel. Secondary cells will be sized according to `smallItemWidth` and `smallItemHeight` rather than `itemWidth` and `itemHeight`.
 
+<img src="https://user-images.githubusercontent.com/935/26845003-db4eb334-4aba-11e7-8e7b-779b8e9d35ef.png" width="340" style="display: block; margin: auto" alt="Using wrap" />	
+
+#### Text alignment
+
+You may specify `"left"`, `"center"` or `"right"` for both `titleAlign` and `captionAlign`. `heroCaptionAlign` is also available when using the `wrap` feature.
+
 #### Using icons
-Icons can be displayed under each item's cell. Specify `icons: true` to enable this. Enabling icons prevents the use of side captions.
+Icons can be displayed under each item's cell. Specify `icons: true` to enable this. **Enabling icons prevents the use of side captions.**
+
+<img src="https://user-images.githubusercontent.com/935/26845006-db51de10-4aba-11e7-9339-6576ce11e525.png" width="340" style="display: block; margin: auto" alt="Using wrap with icons" />	
 
 #### Using images
 All images are assumed to live in the images directory and be numbered starting with zero. You may supply both a prefix and suffix. If your item images are located in an `items` directory within `images` and named:
@@ -133,6 +145,14 @@ Do not include the `images` directory in `imagePrefix` or `iconPrefix`.
 
 #### Assigning margins
 Margins are supplied in the same order as for CSS. `margins: [40, 10, 15, 5]` will provide a top margin of 40, a right margin of 10, a bottom margin of 15, and a left margin of 5. The first item is positioned according to the top margin; however the title and link are positioned relative to the first item using `titleMargin`.
+
+<img src="https://user-images.githubusercontent.com/935/26845005-db5045dc-4aba-11e7-9026-c2263dfc55af.png" width="656" style="display: block; margin: auto" alt="Margins" />	
+
+#### Maximum caption heights
+
+You may enforce text truncation by supplying `captionMaxHeight` and `subcaptionMaxHeight`. The threshold that triggers truncation will depend on font size.
+
+<img src="https://user-images.githubusercontent.com/935/26845004-db4fdd90-4aba-11e7-862d-ff65403edea9.png" width="340" style="display: block; margin: auto" alt="Caption heights" />	
 
 #### Scrolling
 The CarouselComponent will attempt to provide scrolling only when its content extends beyond the visible area. To enforce scrolling regardless, specify `forceScrolling: true`.

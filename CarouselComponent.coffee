@@ -51,9 +51,11 @@
 		captionFontSize: <number>
 		captionFontWeight: <number>
 		captionMargin: <number>
+		captionMaxHeight: <number>
 		subcaptionFontSize: <number>
 		subcaptionFontWeight: <number>
 		subcaptionMargin: <number>
+		subcaptionMaxHeight: <number>
 		titleAlign: <string> ("left" | "center" | "right")
 		captionAlign: <string> ("left" | "center" | "right")
 
