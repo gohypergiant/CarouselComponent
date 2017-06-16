@@ -91,7 +91,7 @@
 	# Icons can be displayed under each item's cell. Specify icons: true to enable this. Enabling icons prevents the use of side captions.
 
 	# Using images
-	# All images are assumed to live in the images directory and be numbered starting with zero. You may supply both a prefix and suffix. If your item images are located in an "items" directory within "images" and named:
+	# All images are assumed to live in the images directory and be numbered with an initial index of zero. You may supply both a prefix and suffix. If your item images are located in an "items" directory within "images" and named:
 
 	cell0.png
 	cell1.png

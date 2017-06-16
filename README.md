@@ -129,7 +129,7 @@ Icons can be displayed under each item's cell. Specify `icons: true` to enable t
 <img src="https://user-images.githubusercontent.com/935/26845006-db51de10-4aba-11e7-9339-6576ce11e525.png" width="340" style="display: block; margin: auto" alt="Using wrap with icons" />	
 
 #### Using images
-All images are assumed to live in the images directory and be numbered starting with zero. You may supply both a prefix and suffix. If your item images are located in an `items` directory within `images` and named:
+All images are assumed to live in the images directory and be numbered with an initial index of zero. You may supply both a prefix and suffix. If your item images are located in an `items` directory within `images` and named:
 
 ```coffeescript
 cell0.png
@@ -170,7 +170,7 @@ itemActions: [
 ```
 
 #### Referring to parts of the CarouselComponent
-The `CarouselComponent` contains a PageComponent which can be accessed with `row` Items and their components can be accessed with the `items` array. `heroItem` is available when wrap is set to true.
+The `CarouselComponent` contains a PageComponent which can be accessed with `row`. Items and their components can be accessed with the `items` array. `heroItem` is available when wrap is set to true.
 
 ```coffeescript
 print myCarousel.row.currentPage
