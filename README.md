@@ -14,9 +14,9 @@ The CarouselComponent module allows you to generate a scrolling carousel of item
 
 Copy or save the `CarouselComponent` file into your project's `modules` folder.
 
-### Adding It To Your Project
+### Adding It to Your Project
 
-In your Framer project add the following:
+In your Framer project, add the following:
 
 ```coffeescript
 ControlPanelLayer = require "CarouselComponent"
@@ -110,18 +110,18 @@ myCarousel = new CarouselComponent
 ```
 
 #### Using side captions
-Specify `sideCaptions: true` to vertically align captions alongside cells rather than underneath. Specify `topAlignSideCaptions: true` to align side captions to the tops of their adjacent cells.
+Specify `sideCaptions: true` to vertically align captions alongside cells, rather than underneath. Specify `topAlignSideCaptions: true` to align side captions to the tops of their adjacent cells.
 
 <img src="https://user-images.githubusercontent.com/935/26845002-db4c73bc-4aba-11e7-822c-a16a15f79d73.png" width="401" style="display: block; margin: auto" alt="Top-aligned side captions" />	
 
 #### Using the wrap feature
-If you specify `wrap: true`, the first item in the carousel will display on its own row as a hero item. This item can be controlled independently of the rest of the carousel. Secondary cells will be sized according to `smallItemWidth` and `smallItemHeight` rather than `itemWidth` and `itemHeight`.
+If you specify `wrap: true`, the first item in the carousel will display on its own row as a hero item. This item can be controlled independently of the rest of the carousel. Secondary cells will be sized according to `smallItemWidth` and `smallItemHeight`, rather than `itemWidth` and `itemHeight`.
 
 <img src="https://user-images.githubusercontent.com/935/26845003-db4eb334-4aba-11e7-8e7b-779b8e9d35ef.png" width="340" style="display: block; margin: auto" alt="Using wrap" />	
 
 #### Text alignment
 
-You may specify `"left"`, `"center"` or `"right"` for both `titleAlign` and `captionAlign`. `heroCaptionAlign` is also available when using the `wrap` feature.
+You may specify `"left"`, `"center"`, or `"right"` for both `titleAlign` and `captionAlign`. `heroCaptionAlign` is also available when using the `wrap` feature.
 
 #### Using icons
 Icons can be displayed under each item's cell. Specify `icons: true` to enable this. **Enabling icons prevents the use of side captions.**
@@ -129,7 +129,7 @@ Icons can be displayed under each item's cell. Specify `icons: true` to enable t
 <img src="https://user-images.githubusercontent.com/935/26845006-db51de10-4aba-11e7-9339-6576ce11e525.png" width="340" style="display: block; margin: auto" alt="Using wrap with icons" />	
 
 #### Using images
-All images are assumed to live in the images directory and be numbered with an initial index of zero. You may supply both a prefix and suffix. If your item images are located in an `items` directory within `images` and named:
+All images are assumed to live in the images directory and be numbered starting with zero. You may supply a prefix and suffix. If your item images are located in an `items` directory within `images` and named:
 
 ```coffeescript
 cell0.png
@@ -137,14 +137,14 @@ cell1.png
 cell2.png
 ```
 
-then your `imagePrefix` would be `"items/cell"` and your suffix would be `"png"`.
+then your `imagePrefix` will be `"items/cell"` and your suffix would be `"png"`.
 
 Icon assets work the same way.
 
 Do not include the `images` directory in `imagePrefix` or `iconPrefix`.
 
 #### Assigning margins
-Margins are supplied in the same order as for CSS. `margins: [40, 10, 15, 5]` will provide a top margin of 40, a right margin of 10, a bottom margin of 15, and a left margin of 5. The first item is positioned according to the top margin; however the title and link are positioned relative to the first item using `titleMargin`.
+Margins are supplied in the same order as they are for CSS. `margins: [40, 10, 15, 5]` will provide a top margin of 40, a right margin of 10, a bottom margin of 15, and a left margin of 5. The first item is positioned according to the top margin; however the title and link are positioned relative to the first item using `titleMargin`.
 
 <img src="https://user-images.githubusercontent.com/935/26845005-db5045dc-4aba-11e7-9026-c2263dfc55af.png" width="656" style="display: block; margin: auto" alt="Margins" />	
 
@@ -170,7 +170,7 @@ itemActions: [
 ```
 
 #### Referring to parts of the CarouselComponent
-The `CarouselComponent` contains a PageComponent which can be accessed with `row`. Items and their components can be accessed with the `items` array. `heroItem` is available when wrap is set to true.
+The `CarouselComponent` contains a PageComponent that can be accessed with `row`. Items and their components can be accessed with the `items` array. `heroItem` is available when wrap is set to true.
 
 ```coffeescript
 print myCarousel.row.currentPage
