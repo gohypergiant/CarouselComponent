@@ -182,3 +182,10 @@ print myCarousel.items[0].cell
 #### Known issues
 
 `CarouselComponent` does not calculate its full height until it has finished populating its content. Don’t attempt `y: Align.center`. Instead, use `myCarousel.y = Align.center` following instantiation. 
+
+---
+
+Website: [blackpixel.com](https://blackpixel.com) &nbsp;&middot;&nbsp;
+GitHub: [@bpxl-labs](https://github.com/bpxl-labs/) &nbsp;&middot;&nbsp;
+Twitter: [@blackpixel](https://twitter.com/blackpixel) &nbsp;&middot;&nbsp;
+Medium: [@bpxl-craft](https://medium.com/bpxl-craft)
