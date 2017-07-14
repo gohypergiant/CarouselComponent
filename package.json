@@ -1,6 +1,6 @@
 {
   "name": "@blackpixel/framer-carouselcomponent",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Generate a scrolling carousel of items in a variety of configurations.",
   "homepage": "https://github.com/bpxl-labs/CarouselComponent",
   "repository": {
