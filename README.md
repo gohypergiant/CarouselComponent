@@ -10,6 +10,13 @@ The CarouselComponent module allows you to generate a scrolling carousel of item
 
 ### Installation
 
+#### NPM Installation
+
+```javascript
+$ cd /your/framer/project
+$ npm i @blackpixel/framer-carouselcomponent
+```
+
 #### Manual installation
 
 Copy or save the `CarouselComponent` file into your project's `modules` folder.
