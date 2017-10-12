@@ -1,0 +1,14 @@
+{
+    "name": "CarouselComponent",
+    "description": "Generates a scrolling carousel of items in a variety of configurations.",
+    "author": "John Marstall",
+
+    "require": "CarouselComponent = require 'CarouselComponent'",
+		"install": [
+			"CarouselComponent.coffee",
+			"README.md"
+		],
+    "example": "example.coffee",
+
+    "thumb": "thumb.png"
+}
