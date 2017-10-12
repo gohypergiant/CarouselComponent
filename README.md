@@ -26,7 +26,7 @@ Copy or save the `CarouselComponent` file into your project's `modules` folder.
 In your Framer project, add the following:
 
 ```coffeescript
-ControlPanelLayer = require "CarouselComponent"
+CarouselComponent = require "CarouselComponent"
 ```
 
 ### API
