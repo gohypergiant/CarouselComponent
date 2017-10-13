@@ -4,6 +4,8 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](.github/CONTRIBUTING.md)
 [![Maintenance](https://img.shields.io/maintenance/yes/2017.svg)]()
 
+<a href="https://open.framermodules.com/mapboxlayer"><img alt="Install with Framer Modules" src="https://www.framermodules.com/assets/badge@2x.png" width='160' height='40' /></a>
+
 The CarouselComponent module allows you to generate a scrolling carousel of items in a variety of configurations.
 	
 <img src="https://cloud.githubusercontent.com/assets/935/26805354/28e65a5c-4a11-11e7-854a-3cf275d5ef58.gif" width="501" style="display: block; margin: auto" alt="CarouselComponent preview" />	
