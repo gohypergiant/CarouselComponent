@@ -28,7 +28,10 @@ Copy or save the `CarouselComponent` file into your project's `modules` folder.
 In your Framer project, add the following:
 
 ```coffeescript
+# If you manually installed
 CarouselComponent = require "CarouselComponent"
+# else
+CarouselComponent = require "@blackpixel/framer-carouselcomponent"
 ```
 
 ### API
