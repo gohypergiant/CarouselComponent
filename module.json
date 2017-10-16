@@ -1,7 +1,7 @@
 {
     "name": "CarouselComponent",
     "description": "Generates a scrolling carousel of items in a variety of configurations.",
-    "author": "John Marstall",
+    "author": "John Marstall @ BPXL",
 
     "require": "CarouselComponent = require 'CarouselComponent'",
 		"install": [
