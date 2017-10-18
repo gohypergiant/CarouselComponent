@@ -191,7 +191,10 @@ print myCarousel.items[0].textBlock
 print myCarousel.items[0].cell
 ```
 
-#### Known issues
+### Example project
+[Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/bpxl-labs/CarouselComponent/tree/master/example.framer) the example to try it for yourself.
+
+### Known issues
 
 `CarouselComponent` does not calculate its full height until it has finished populating its content. Don’t attempt `y: Align.center`. Instead, use `myCarousel.y = Align.center` following instantiation. 
 
